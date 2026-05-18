@@ -9,6 +9,7 @@
     "sendresults": "node sendTestResults.js"
   },
   "dependencies": {
+    "cors": "^2.8.6",
     "express": "^5.2.1",
     "knex": "^2.0.0",
     "sqlite3": "^5.0.8"
