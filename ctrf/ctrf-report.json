@@ -10,8 +10,8 @@
       "pending": 0,
       "skipped": 0,
       "other": 0,
-      "start": 1779103815154,
-      "stop": 1779103816388
+      "start": 1779191145157,
+      "stop": 1779191146469
     },
     "tests": [
       {
@@ -27,7 +27,7 @@
       },
       {
         "name": "server.js [GET] /api/posts [1] doğru gönderi sayısı alıyor",
-        "duration": 32,
+        "duration": 31,
         "status": "passed",
         "rawStatus": "passed",
         "type": "unit",
@@ -38,7 +38,7 @@
       },
       {
         "name": "server.js [GET] /api/posts [2] tüm postları alıyor",
-        "duration": 30,
+        "duration": 32,
         "status": "passed",
         "rawStatus": "passed",
         "type": "unit",
@@ -49,7 +49,7 @@
       },
       {
         "name": "server.js [GET] /api/posts/:id [3] id ye göre doğru postları alıyor",
-        "duration": 33,
+        "duration": 32,
         "status": "passed",
         "rawStatus": "passed",
         "type": "unit",
@@ -60,7 +60,7 @@
       },
       {
         "name": "server.js [GET] /api/posts/:id [4] post yoksa 404 yanıtlıyor",
-        "duration": 15,
+        "duration": 16,
         "status": "passed",
         "rawStatus": "passed",
         "type": "unit",
@@ -71,7 +71,7 @@
       },
       {
         "name": "server.js [POST] /api/posts [5] 201 yanıtlıyor",
-        "duration": 17,
+        "duration": 21,
         "status": "passed",
         "rawStatus": "passed",
         "type": "unit",
@@ -82,7 +82,7 @@
       },
       {
         "name": "server.js [POST] /api/posts [6] yeni postu döndürüyor",
-        "duration": 33,
+        "duration": 36,
         "status": "passed",
         "rawStatus": "passed",
         "type": "unit",
@@ -126,7 +126,7 @@
       },
       {
         "name": "server.js [PUT] /api/posts/:id [10] bad id durumunda doğru mesaj ve yanıt",
-        "duration": 17,
+        "duration": 16,
         "status": "passed",
         "rawStatus": "passed",
         "type": "unit",
@@ -137,7 +137,7 @@
       },
       {
         "name": "server.js [PUT] /api/posts/:id [11] responds with the correct message & status code on validation problem",
-        "duration": 13,
+        "duration": 12,
         "status": "passed",
         "rawStatus": "passed",
         "type": "unit",
