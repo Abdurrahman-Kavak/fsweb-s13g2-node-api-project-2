@@ -30,7 +30,7 @@ router.post("/", async (req, res) => {
   if (!title || !contents) {
     return res
       .status(400)
-      .json({ message: "Lütfen gönderi için title ve contents sağlayın" });
+      .json({ message: "Lütfen gönderi için bir title ve contents sağlayın" });
   }
   try {
     const { id } = await Posts.insert({ title, contents });
